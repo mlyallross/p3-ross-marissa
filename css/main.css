@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* general body coding */
+body {
+    background: url(../images/galaxy.jpg) no-repeat center center fixed;
+    font-family: 'ScriptoramaMarkdownJF', sans-serif;
+}
+
+/* h1 styling */
+h1 {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 0 15%;
+  margin-top: 5%;
+}
+
+/*circle styling */
+#circle1, #circle2, #circle3 {
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 23%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+#colors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+    margin: 20% 0 0 20%;
+    font-size: 1.3rem;
+}
+
+
+.purple, .white, .black, .blue {
+    margin-top: 70%;
+    margin-left: -30%;
+}
+
+.white, .blue {
+  padding-top: 17%;
+}
+
+#numbers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 60%;
+  font-size: 1.3rem;
+  margin: 30% 0 0 20%;
+}
+
+.one {
+  margin-top: 130%;
+}
+
+.two {
+  margin-top: 120%;
+}
+
+.three, .four {
+ margin-top: 80%;
+}
+
+.four {
+  padding-top: 20%;
+}
+
+a {
+  text-decoration: none;
+  color: #282a63;
+}
+
+a:hover {
+
+}
+
+/* circle glow styling */
+  ul{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    display:flex;
+    
+  }
+  ul li{
+    list-style:none;
+    width:40px;
+    height:40px;
+    background:#fff;
+    border-radius:50%;
+    animation:grow 1.6s ease-in-out infinite;
+  }
+
+    @keyframes grow
+    {
+      0% , 40% , 100%
+      {
+        transform:scale(0.2);
+      }
+      20%{
+         transform:scale(1);
+  
+      }
+    }
+  
+    ul li:nth-child(1){
+    animation-delay:-1.4s;
+    background:#7d90df;
+    box-shadow:0 0 50px #7d90df; 
+  }
+
+    ul li:nth-child(2) {
+    animation-delay:-1.2s;
+    background:#C0C0C0;
+    box-shadow:0 0 50px #C0C0C0;
+  }
+  
+    ul li:nth-child(3) {
+    animation-delay:-1s;
+    background:#0d0639;
+    box-shadow:0 0 50px #0d0639;
+  }
+
+    ul li:nth-child(4) {
+        animation-delay:-0.8s;
+        background:#8fafff;
+        box-shadow:0 0 50px #8fafff;
+        
+    }
+
+/* footer styling */
+footer {
+  background-color: #282a63;
+  color: white;
+  font-size: 1rem;
+  padding: 8%;
+  margin-top: 25%;
+  text-align: center;
+}
