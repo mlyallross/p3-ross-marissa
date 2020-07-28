@@ -62,7 +62,7 @@ $(document).ready(function() {
             document.querySelector('#glow_3').style.animationIterationCount = "4";
             document.querySelector('#glow_4').style.animationIterationCount = "4";
 
-            $('#glow').fadeOut( 17000 ).delay( 100).hide( 17000 );
+            $('#glow').fadeOut( 15000 ).delay( 100).hide( 15000 );
         
         })
 
@@ -73,23 +73,22 @@ $(document).ready(function() {
         /* click on three animation */
         $('#three').click(function() {
             $('#numbers').hide();
-            $('#poses').show();
             $('#glow').fadeIn();
-            
 
             document.querySelector('#glow_1').style.animationIterationCount = "3";
             document.querySelector('#glow_2').style.animationIterationCount = "3";
             document.querySelector('#glow_3').style.animationIterationCount = "3";
             document.querySelector('#glow_4').style.animationIterationCount = "3";
 
+            $('#glow').fadeOut( 16000 ).delay( 10 ).hide( 16000 );
 
 
-            var images = ['yoga_1.png', 'yoga_2.png', 'yoga_3.png', 'yoga_4.png', 'yoga_5.png', 'yoga_6.png', 'yoga_7.png', 'yoga_8.png', 'yoga_9.png', 'yoga_10.png'];
+            setTimeout(function() {
+                var images = ['yoga_1.png', 'yoga_2.png', 'yoga_3.png', 'yoga_4.png', 'yoga_5.png', 'yoga_6.png', 'yoga_7.png', 'yoga_8.png', 'yoga_9.png', 'yoga_10.png'];
 
-            $('<img src="images/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('#random_poses');
-
-            $('#glow').fadeOut( 17000 ).delay( 100).hide( 17000 );
+                $('<img src="images/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('#random_poses');
             
+            }, 16100);
         })
 
         /* click on five animation */
@@ -103,7 +102,15 @@ $(document).ready(function() {
             document.querySelector('#glow_3').style.animationIterationCount = "5";
             document.querySelector('#glow_4').style.animationIterationCount = "5";
 
-            $('#glow').fadeOut( 16000 );
+            $('#glow').fadeOut( 18000 ).delay( 10 ).hide( 18000 );
+
+
+            setTimeout(function() {
+                var images = ['yoga_1.png', 'yoga_2.png', 'yoga_3.png', 'yoga_4.png', 'yoga_5.png', 'yoga_6.png', 'yoga_7.png', 'yoga_8.png', 'yoga_9.png', 'yoga_10.png'];
+
+                $('<img src="images/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('#random_poses');
+            
+            }, 18100);
         })
 
         /* click on seven animation */
@@ -117,7 +124,15 @@ $(document).ready(function() {
             document.querySelector('#glow_3').style.animationIterationCount = "7";
             document.querySelector('#glow_4').style.animationIterationCount = "7";
 
-            $('#glow').fadeOut( 16000 );
+            $('#glow').fadeOut( 20000 ).delay( 10 ).hide( 20000 );
+
+
+            setTimeout(function() {
+                var images = ['yoga_1.png', 'yoga_2.png', 'yoga_3.png', 'yoga_4.png', 'yoga_5.png', 'yoga_6.png', 'yoga_7.png', 'yoga_8.png', 'yoga_9.png', 'yoga_10.png'];
+
+                $('<img src="images/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('#random_poses');
+            
+            }, 20100);
         })
 
         /* click on nine animation */
@@ -131,7 +146,15 @@ $(document).ready(function() {
             document.querySelector('#glow_3').style.animationIterationCount = "9";
             document.querySelector('#glow_4').style.animationIterationCount = "9";
 
-            $('#glow').fadeOut( 16000 );
+            $('#glow').fadeOut( 22000 ).delay( 10 ).hide( 22000 );
+
+
+            setTimeout(function() {
+                var images = ['yoga_1.png', 'yoga_2.png', 'yoga_3.png', 'yoga_4.png', 'yoga_5.png', 'yoga_6.png', 'yoga_7.png', 'yoga_8.png', 'yoga_9.png', 'yoga_10.png'];
+
+                $('<img src="images/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('#random_poses');
+            
+            }, 22100);
         })
     
 });
