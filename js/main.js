@@ -7,77 +7,122 @@ $(document).ready(function() {
         /* click on purple animation */
         $('#purple').click(function() {
             $('#colors').hide();
-            $('#numbers').show();
+            $('#numbers').slideUp( 1000 ).delay( 10000 ).fadeIn( 6000 );
             $('#glow').show();
+            
+            
 
-            document.querySelector('#glow_1').style.animationIterationCount = "7";
-            document.querySelector('#glow_2').style.animationIterationCount = "7";
-            document.querySelector('#glow_3').style.animationIterationCount = "7";
-            document.querySelector('#glow_4').style.animationIterationCount = "7";
+            document.querySelector('#glow_1').style.animationIterationCount = "6";
+            document.querySelector('#glow_2').style.animationIterationCount = "6";
+            document.querySelector('#glow_3').style.animationIterationCount = "6";
+            document.querySelector('#glow_4').style.animationIterationCount = "6";
 
+            
+            $('#glow').fadeOut( 20000 );
         });
     
         /* click on white animation */
         $('#white').click(function() {
             $('#colors').hide();
-            $('#numbers').show();
+            $('#numbers').slideUp( 1000 ).delay( 7500 ).fadeIn( 6000 );
             $('#glow').show();
 
             document.querySelector('#glow_1').style.animationIterationCount = "5";
             document.querySelector('#glow_2').style.animationIterationCount = "5";
             document.querySelector('#glow_3').style.animationIterationCount = "5";
             document.querySelector('#glow_4').style.animationIterationCount = "5";
+
+            $('#glow').fadeOut( 18000 );
 
         })
 
         /* click on black animation */
         $('#black').click(function() {
             $('#colors').hide();
-            $('#numbers').show();
+            $('#numbers').slideUp( 1000 ).delay( 7500 ).fadeIn( 6000 );
             $('#glow').show();
 
             document.querySelector('#glow_1').style.animationIterationCount = "5";
             document.querySelector('#glow_2').style.animationIterationCount = "5";
             document.querySelector('#glow_3').style.animationIterationCount = "5";
             document.querySelector('#glow_4').style.animationIterationCount = "5";
+
+            $('#glow').fadeOut( 18000 );
         
         })
 
         /* click on blue animation */
         $('#blue').click(function() {
             $('#colors').hide();
-            $('#numbers').show();
+            $('#numbers').slideUp( 1000 ).delay( 6500 ).fadeIn( 6000 );
             $('#glow').show();
 
             document.querySelector('#glow_1').style.animationIterationCount = "4";
             document.querySelector('#glow_2').style.animationIterationCount = "4";
             document.querySelector('#glow_3').style.animationIterationCount = "4";
             document.querySelector('#glow_4').style.animationIterationCount = "4";
+
+            $('#glow').fadeOut( 17000 ).delay( 100).hide( 17000 );
         
-        })
-
-        /* click on one animation */
-        $('#one').click(function() {
-            $('#numbers').hide();
-            $('#poses').show();
-        })
-
-        /* click on two animation */
-        $('#two').click(function() {
-            $('#numbers').hide();
-            $('#poses').show();
         })
 
         /* click on three animation */
         $('#three').click(function() {
             $('#numbers').hide();
             $('#poses').show();
+            $('#glow').fadeIn();
+            
+
+            document.querySelector('#glow_1').style.animationIterationCount = "3";
+            document.querySelector('#glow_2').style.animationIterationCount = "3";
+            document.querySelector('#glow_3').style.animationIterationCount = "3";
+            document.querySelector('#glow_4').style.animationIterationCount = "3";
+
+            $('#glow').fadeOut( 16000 );
+
+            
         })
 
-        /* click on four animation */
-        $('#four').click(function() {
+        /* click on five animation */
+        $('#five').click(function() {
             $('#numbers').hide();
             $('#poses').show();
+            $('#glow').fadeIn();
+
+            document.querySelector('#glow_1').style.animationIterationCount = "5";
+            document.querySelector('#glow_2').style.animationIterationCount = "5";
+            document.querySelector('#glow_3').style.animationIterationCount = "5";
+            document.querySelector('#glow_4').style.animationIterationCount = "5";
+
+            $('#glow').fadeOut( 16000 );
+        })
+
+        /* click on seven animation */
+        $('#seven').click(function() {
+            $('#numbers').hide();
+            $('#poses').show();
+            $('#glow').fadeIn();
+
+            document.querySelector('#glow_1').style.animationIterationCount = "7";
+            document.querySelector('#glow_2').style.animationIterationCount = "7";
+            document.querySelector('#glow_3').style.animationIterationCount = "7";
+            document.querySelector('#glow_4').style.animationIterationCount = "7";
+
+            $('#glow').fadeOut( 16000 );
+        })
+
+        /* click on nine animation */
+        $('#nine').click(function() {
+            $('#numbers').hide();
+            $('#poses').show();
+            $('#glow').fadeIn();
+
+            document.querySelector('#glow_1').style.animationIterationCount = "9";
+            document.querySelector('#glow_2').style.animationIterationCount = "9";
+            document.querySelector('#glow_3').style.animationIterationCount = "9";
+            document.querySelector('#glow_4').style.animationIterationCount = "9";
+
+            $('#glow').fadeOut( 16000 );
         })
 
  });
