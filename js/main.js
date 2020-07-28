@@ -66,6 +66,10 @@ $(document).ready(function() {
         
         })
 
+
+
+        
+
         /* click on three animation */
         $('#three').click(function() {
             $('#numbers').hide();
@@ -78,8 +82,13 @@ $(document).ready(function() {
             document.querySelector('#glow_3').style.animationIterationCount = "3";
             document.querySelector('#glow_4').style.animationIterationCount = "3";
 
-            $('#glow').fadeOut( 16000 );
 
+
+            var images = ['yoga_1.png', 'yoga_2.png', 'yoga_3.png', 'yoga_4.png', 'yoga_5.png', 'yoga_6.png', 'yoga_7.png', 'yoga_8.png', 'yoga_9.png', 'yoga_10.png'];
+
+            $('<img src="images/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('#random_poses');
+
+            $('#glow').fadeOut( 17000 ).delay( 100).hide( 17000 );
             
         })
 
@@ -124,6 +133,5 @@ $(document).ready(function() {
 
             $('#glow').fadeOut( 16000 );
         })
-
- });
-
+    
+});
