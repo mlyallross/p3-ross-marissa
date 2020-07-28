@@ -8,6 +8,12 @@ $(document).ready(function() {
         $('#purple').click(function() {
             $('#colors').hide();
             $('#numbers').show();
+            $('#glow').show();
+
+            document.querySelector('#glow_1').style.animationIterationCount = "7";
+            document.querySelector('#glow_2').style.animationIterationCount = "7";
+            document.querySelector('#glow_3').style.animationIterationCount = "7";
+            document.querySelector('#glow_4').style.animationIterationCount = "7";
 
         });
     
@@ -15,6 +21,12 @@ $(document).ready(function() {
         $('#white').click(function() {
             $('#colors').hide();
             $('#numbers').show();
+            $('#glow').show();
+
+            document.querySelector('#glow_1').style.animationIterationCount = "5";
+            document.querySelector('#glow_2').style.animationIterationCount = "5";
+            document.querySelector('#glow_3').style.animationIterationCount = "5";
+            document.querySelector('#glow_4').style.animationIterationCount = "5";
 
         })
 
@@ -22,6 +34,12 @@ $(document).ready(function() {
         $('#black').click(function() {
             $('#colors').hide();
             $('#numbers').show();
+            $('#glow').show();
+
+            document.querySelector('#glow_1').style.animationIterationCount = "5";
+            document.querySelector('#glow_2').style.animationIterationCount = "5";
+            document.querySelector('#glow_3').style.animationIterationCount = "5";
+            document.querySelector('#glow_4').style.animationIterationCount = "5";
         
         })
 
@@ -29,6 +47,12 @@ $(document).ready(function() {
         $('#blue').click(function() {
             $('#colors').hide();
             $('#numbers').show();
+            $('#glow').show();
+
+            document.querySelector('#glow_1').style.animationIterationCount = "4";
+            document.querySelector('#glow_2').style.animationIterationCount = "4";
+            document.querySelector('#glow_3').style.animationIterationCount = "4";
+            document.querySelector('#glow_4').style.animationIterationCount = "4";
         
         })
 
