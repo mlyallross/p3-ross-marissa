@@ -50,6 +50,25 @@ h1 {
 }
 
 #numbers {
+  margin-top: -55%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 45%;
+  padding: 0 25%;
+  font-size: 1.3rem;
+}
+
+.three {
+  padding-top: 35%;
+}
+
+.four {
+  padding-top: 42%;
+  padding-left: 20%;
+}
+
+/* #numbers {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -72,15 +91,11 @@ h1 {
 
 .four {
   padding-top: 20%;
-}
+} */
 
 a {
   text-decoration: none;
   color: #282a63;
-}
-
-a:hover {
-
 }
 
 /* circle glow styling */
@@ -92,15 +107,15 @@ a:hover {
     margin:0;
     padding:0;
     display:flex;
-    
   }
+
   ul li{
     list-style:none;
     width:40px;
     height:40px;
     background:#fff;
     border-radius:50%;
-    animation:grow 1.6s ease-in-out infinite;
+    animation:grow 2s ease-in-out infinite;
   }
 
     @keyframes grow
@@ -116,36 +131,27 @@ a:hover {
     }
   
     ul li:nth-child(1){
-    animation-delay:-1.4s;
+    animation-delay:-1.8s;
     background:#7d90df;
     box-shadow:0 0 50px #7d90df; 
   }
 
     ul li:nth-child(2) {
-    animation-delay:-1.2s;
+    animation-delay:-1.6s;
     background:#C0C0C0;
     box-shadow:0 0 50px #C0C0C0;
   }
   
     ul li:nth-child(3) {
-    animation-delay:-1s;
+    animation-delay:-1.2s;
     background:#0d0639;
     box-shadow:0 0 50px #0d0639;
   }
 
     ul li:nth-child(4) {
-        animation-delay:-0.8s;
+        animation-delay:-1s;
         background:#8fafff;
         box-shadow:0 0 50px #8fafff;
         
     }
 
-/* footer styling */
-footer {
-  background-color: #282a63;
-  color: white;
-  font-size: 1rem;
-  padding: 8%;
-  margin-top: 25%;
-  text-align: center;
-}
