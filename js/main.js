@@ -31,12 +31,12 @@ $(document).ready(function() {
             $('#even_numbers').slideUp( 1000 ).delay( 10000 ).fadeIn( 6000 );
             $('#glow').show();
 
-            document.querySelector('#glow_1').style.animationIterationCount = "5";
-            document.querySelector('#glow_2').style.animationIterationCount = "5";
-            document.querySelector('#glow_3').style.animationIterationCount = "5";
-            document.querySelector('#glow_4').style.animationIterationCount = "5";
+            document.querySelector('#glow_1').style.animationIterationCount = "6";
+            document.querySelector('#glow_2').style.animationIterationCount = "6";
+            document.querySelector('#glow_3').style.animationIterationCount = "6";
+            document.querySelector('#glow_4').style.animationIterationCount = "6";
 
-            $('#glow').fadeOut( 18000 );
+            $('#glow').fadeOut( 20000 );
 
         })
 
@@ -47,12 +47,12 @@ $(document).ready(function() {
             $('#even_numbers').slideUp( 1000 ).delay( 10000 ).fadeIn( 6000 );
             $('#glow').show();
 
-            document.querySelector('#glow_1').style.animationIterationCount = "5";
-            document.querySelector('#glow_2').style.animationIterationCount = "5";
-            document.querySelector('#glow_3').style.animationIterationCount = "5";
-            document.querySelector('#glow_4').style.animationIterationCount = "5";
+            document.querySelector('#glow_1').style.animationIterationCount = "4";
+            document.querySelector('#glow_2').style.animationIterationCount = "4";
+            document.querySelector('#glow_3').style.animationIterationCount = "4";
+            document.querySelector('#glow_4').style.animationIterationCount = "4";
 
-            $('#glow').fadeOut( 18000 );
+            $('#glow').fadeOut( 15000 );
         
         })
 
@@ -68,7 +68,7 @@ $(document).ready(function() {
             document.querySelector('#glow_3').style.animationIterationCount = "4";
             document.querySelector('#glow_4').style.animationIterationCount = "4";
 
-            $('#glow').fadeOut( 15000 ).delay( 100).hide( 15000 );
+            $('#glow').fadeOut( 15000 );
         
         })
 
@@ -93,10 +93,10 @@ $(document).ready(function() {
             $('#odd_numbers').slideUp( 1000 ).delay( 10000 ).fadeIn( 6000 );
             $('#glow').fadeIn();
 
-            document.querySelector('#glow_1').style.animationIterationCount = "2";
-            document.querySelector('#glow_2').style.animationIterationCount = "2";
-            document.querySelector('#glow_3').style.animationIterationCount = "2";
-            document.querySelector('#glow_4').style.animationIterationCount = "2";
+            document.querySelector('#glow_1').style.animationIterationCount = "4";
+            document.querySelector('#glow_2').style.animationIterationCount = "4";
+            document.querySelector('#glow_3').style.animationIterationCount = "4";
+            document.querySelector('#glow_4').style.animationIterationCount = "4";
 
             $('#glow').fadeOut( 15000 ).delay( 100).hide( 15000 );
         
@@ -108,10 +108,10 @@ $(document).ready(function() {
             $('#odd_numbers').slideUp( 1000 ).delay( 10000 ).fadeIn( 6000 );
             $('#glow').fadeIn();
 
-            document.querySelector('#glow_1').style.animationIterationCount = "2";
-            document.querySelector('#glow_2').style.animationIterationCount = "2";
-            document.querySelector('#glow_3').style.animationIterationCount = "2";
-            document.querySelector('#glow_4').style.animationIterationCount = "2";
+            document.querySelector('#glow_1').style.animationIterationCount = "6";
+            document.querySelector('#glow_2').style.animationIterationCount = "6";
+            document.querySelector('#glow_3').style.animationIterationCount = "6";
+            document.querySelector('#glow_4').style.animationIterationCount = "6";
 
             $('#glow').fadeOut( 15000 ).delay( 100).hide( 15000 );
         
@@ -123,10 +123,10 @@ $(document).ready(function() {
             $('#odd_numbers').slideUp( 1000 ).delay( 10000 ).fadeIn( 6000 );
             $('#glow').fadeIn();
 
-            document.querySelector('#glow_1').style.animationIterationCount = "2";
-            document.querySelector('#glow_2').style.animationIterationCount = "2";
-            document.querySelector('#glow_3').style.animationIterationCount = "2";
-            document.querySelector('#glow_4').style.animationIterationCount = "2";
+            document.querySelector('#glow_1').style.animationIterationCount = "8";
+            document.querySelector('#glow_2').style.animationIterationCount = "8";
+            document.querySelector('#glow_3').style.animationIterationCount = "8";
+            document.querySelector('#glow_4').style.animationIterationCount = "8";
 
             $('#glow').fadeOut( 15000 ).delay( 100).hide( 15000 );
         
@@ -157,8 +157,7 @@ $(document).ready(function() {
 
         /* click on five animation */
         $('#five').click(function() {
-            $('#numbers').hide();
-            $('#poses').show();
+            $('#odd_numbers').hide();
             $('#glow').fadeIn();
 
             document.querySelector('#glow_1').style.animationIterationCount = "5";
@@ -179,8 +178,7 @@ $(document).ready(function() {
 
         /* click on seven animation */
         $('#seven').click(function() {
-            $('#numbers').hide();
-            $('#poses').show();
+            $('#odd_numbers').hide();
             $('#glow').fadeIn();
 
             document.querySelector('#glow_1').style.animationIterationCount = "7";
@@ -201,8 +199,7 @@ $(document).ready(function() {
 
         /* click on nine animation */
         $('#nine').click(function() {
-            $('#numbers').hide();
-            $('#poses').show();
+            $('#odd_numbers').hide();
             $('#glow').fadeIn();
 
             document.querySelector('#glow_1').style.animationIterationCount = "9";
