@@ -13,7 +13,7 @@ body {
 /* h1 styling */
 h1 {
   color: white;
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   text-align: center;
   padding: 0 15%;
   margin-top: 5%;
@@ -28,47 +28,76 @@ h1 {
     text-align: center;
     margin: 8% 0 0 37%;
     position: absolute;
+    border-color: #706fad;
+    border-style: solid;
+    border-width: 2px;
 }
 
 a {
   text-decoration: none;
-  color: #282a63;
+  color: #1f2359;
 }
 
-
-
-
-#colors {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 70%;
-    margin: 0 0 0 20%;
-    font-size: 1.3rem;
+#purple:hover, #two:hover, #three:hover {
+  color: #6e4ae9;
 }
 
-
-.purple, .white, .black, .blue {
-    margin-top: 70%;
-    margin-left: -30%;
+#silver:hover, #four:hover, #five:hover {
+  color: #aaa9ad;
 }
 
-.white {
-  padding-top: 19%;
+#nite:hover, #six:hover, #seven:hover {
+  color: #42457c;
 }
 
-.blue {
-  padding-top: 20%;
+#blue:hover, #eight:hover, #nine:hover {
+  color: #42C0FB;
 }
 
-#even_numbers, #odd_numbers {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 80%;
-  font-size: 1.5rem;
-  margin: 40% 0 0 5%;
-}
+/* colors */
+  #colors {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      margin-top: 30%;
+      font-size: 1.3rem;
+      text-align: left;
+  }
+  
+  .blue {
+    margin-left: 83%;
+    padding-top: 60%;
+  }
+
+  .nite {
+    padding-top: 66%;
+    margin-left: 33%;
+  }
+
+  #colors a {
+    padding: 0 8%;
+  }
+
+
+  /* numbers */
+    #even_numbers, #odd_numbers {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 80%;
+      font-size: 1.5rem;
+      margin: 40% 0 0 5%;
+    }
+
+   /* poses */
+   img {
+    max-width: 260px;
+    max-height: 260px;
+    }
+
+    #random_poses {
+      margin: 20% 0 0 6%;
+    }
 
 
 /* circle glow styling */
@@ -106,26 +135,26 @@ a {
   
     ul li:nth-child(1){
     animation-delay:-1.8s;
-    background:#7d90df;
-    box-shadow:0 0 50px #7d90df; 
+    background:#6e4ae9;
+    box-shadow:0 0 50px #6e4ae9; 
   }
 
     ul li:nth-child(2) {
     animation-delay:-1.6s;
-    background:#C0C0C0;
-    box-shadow:0 0 50px #C0C0C0;
+    background:#aaa9ad;
+    box-shadow:0 0 50px #aaa9ad;
   }
   
     ul li:nth-child(3) {
     animation-delay:-1.2s;
-    background:#0d0639;
-    box-shadow:0 0 50px #0d0639;
+    background:#42457c;
+    box-shadow:0 0 50px #42457c;
   }
 
     ul li:nth-child(4) {
         animation-delay:-1s;
-        background:#8fafff;
-        box-shadow:0 0 50px #8fafff;
+        background:#42C0FB;
+        box-shadow:0 0 50px #42C0FB;
         
     }
 
