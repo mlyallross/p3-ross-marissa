@@ -1,14 +1,16 @@
 $(document).ready(function() {
     /* HIDE ANIMATION AND NUMBERS ON PAGE LOAD */
-        $('#numbers').hide();
+        $('#even_numbers').hide();
+        $('#odd_numbers').hide();
         $('#glow').hide();
 
     /* HIDE/SHOW ELEMENTS | FORTUNE OPTIONS CODE */   
         /* click on purple animation */
         $('#purple').click(function() {
             $('#colors').hide();
-            $('#numbers').slideUp( 1000 ).delay( 10000 ).fadeIn( 6000 );
-            $('#glow').show();
+            $('#odd_numbers').hide();
+            $('#even_numbers').slideUp( 1000 ).delay( 10000 ).fadeIn( 6000 );
+            $('#glow').fadeIn();
             
             
 
@@ -24,7 +26,8 @@ $(document).ready(function() {
         /* click on white animation */
         $('#white').click(function() {
             $('#colors').hide();
-            $('#numbers').slideUp( 1000 ).delay( 7500 ).fadeIn( 6000 );
+            $('#odd_numbers').hide();
+            $('#even_numbers').slideUp( 1000 ).delay( 10000 ).fadeIn( 6000 );
             $('#glow').show();
 
             document.querySelector('#glow_1').style.animationIterationCount = "5";
@@ -39,7 +42,8 @@ $(document).ready(function() {
         /* click on black animation */
         $('#black').click(function() {
             $('#colors').hide();
-            $('#numbers').slideUp( 1000 ).delay( 7500 ).fadeIn( 6000 );
+            $('#odd_numbers').hide();
+            $('#even_numbers').slideUp( 1000 ).delay( 10000 ).fadeIn( 6000 );
             $('#glow').show();
 
             document.querySelector('#glow_1').style.animationIterationCount = "5";
@@ -54,7 +58,8 @@ $(document).ready(function() {
         /* click on blue animation */
         $('#blue').click(function() {
             $('#colors').hide();
-            $('#numbers').slideUp( 1000 ).delay( 6500 ).fadeIn( 6000 );
+            $('#odd_numbers').hide();
+            $('#even_numbers').slideUp( 1000 ).delay( 10000 ).fadeIn( 6000 );
             $('#glow').show();
 
             document.querySelector('#glow_1').style.animationIterationCount = "4";
@@ -66,13 +71,71 @@ $(document).ready(function() {
         
         })
 
+        /* click on two animation */
+        $('#two').click(function() {
+            $('#even_numbers').hide();
+            $('#odd_numbers').slideUp( 1000 ).delay( 10000 ).fadeIn( 6000 );
+            $('#glow').fadeIn();
 
+            document.querySelector('#glow_1').style.animationIterationCount = "2";
+            document.querySelector('#glow_2').style.animationIterationCount = "2";
+            document.querySelector('#glow_3').style.animationIterationCount = "2";
+            document.querySelector('#glow_4').style.animationIterationCount = "2";
 
+            $('#glow').fadeOut( 15000 ).delay( 100).hide( 15000 );
         
+        })
+
+        /* click on four animation */
+        $('#four').click(function() {
+            $('#even_numbers').hide();
+            $('#odd_numbers').slideUp( 1000 ).delay( 10000 ).fadeIn( 6000 );
+            $('#glow').fadeIn();
+
+            document.querySelector('#glow_1').style.animationIterationCount = "2";
+            document.querySelector('#glow_2').style.animationIterationCount = "2";
+            document.querySelector('#glow_3').style.animationIterationCount = "2";
+            document.querySelector('#glow_4').style.animationIterationCount = "2";
+
+            $('#glow').fadeOut( 15000 ).delay( 100).hide( 15000 );
+        
+        })
+
+        /* click on six animation */
+        $('#six').click(function() {
+            $('#even_numbers').hide();
+            $('#odd_numbers').slideUp( 1000 ).delay( 10000 ).fadeIn( 6000 );
+            $('#glow').fadeIn();
+
+            document.querySelector('#glow_1').style.animationIterationCount = "2";
+            document.querySelector('#glow_2').style.animationIterationCount = "2";
+            document.querySelector('#glow_3').style.animationIterationCount = "2";
+            document.querySelector('#glow_4').style.animationIterationCount = "2";
+
+            $('#glow').fadeOut( 15000 ).delay( 100).hide( 15000 );
+        
+        })
+
+        /* click on eight animation */
+        $('#eight').click(function() {
+            $('#even_numbers').hide();
+            $('#odd_numbers').slideUp( 1000 ).delay( 10000 ).fadeIn( 6000 );
+            $('#glow').fadeIn();
+
+            document.querySelector('#glow_1').style.animationIterationCount = "2";
+            document.querySelector('#glow_2').style.animationIterationCount = "2";
+            document.querySelector('#glow_3').style.animationIterationCount = "2";
+            document.querySelector('#glow_4').style.animationIterationCount = "2";
+
+            $('#glow').fadeOut( 15000 ).delay( 100).hide( 15000 );
+        
+        })
+
+
 
         /* click on three animation */
         $('#three').click(function() {
-            $('#numbers').hide();
+            $('#odd_numbers').hide();
             $('#glow').fadeIn();
 
             document.querySelector('#glow_1').style.animationIterationCount = "3";
