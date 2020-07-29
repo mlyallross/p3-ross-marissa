@@ -3,6 +3,7 @@ $(document).ready(function() {
         $('#even_numbers').hide();
         $('#odd_numbers').hide();
         $('#glow').hide();
+         
 
     /* HIDE/SHOW ELEMENTS | FORTUNE OPTIONS CODE */   
         /* click on purple animation */
@@ -23,8 +24,8 @@ $(document).ready(function() {
             $('#glow').fadeOut( 20000 );
         });
     
-        /* click on white animation */
-        $('#white').click(function() {
+        /* click on silver animation */
+        $('#silver').click(function() {
             $('#colors').hide();
             $('#odd_numbers').hide();
             $('#even_numbers').slideUp( 1000 ).delay( 10000 ).fadeIn( 6000 );
@@ -39,8 +40,8 @@ $(document).ready(function() {
 
         })
 
-        /* click on black animation */
-        $('#black').click(function() {
+        /* click on nite animation */
+        $('#nite').click(function() {
             $('#colors').hide();
             $('#odd_numbers').hide();
             $('#even_numbers').slideUp( 1000 ).delay( 10000 ).fadeIn( 6000 );
