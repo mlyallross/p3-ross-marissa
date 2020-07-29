@@ -13,22 +13,27 @@ body {
 /* h1 styling */
 h1 {
   color: white;
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-align: center;
   padding: 0 15%;
   margin-top: 5%;
 }
 
 /*circle styling */
-#circle1, #circle2, #circle3 {
+#circle1 {
     background-color: white;
     height: 300px;
     width: 300px;
     border-radius: 50%;
-    margin-top: 23%;
-    margin-left: 10%;
     text-align: center;
+    margin: 8% 0 0 37%;
 }
+
+a {
+  text-decoration: none;
+  color: #282a63;
+}
+
 
 #colors {
     display: flex;
@@ -53,56 +58,26 @@ h1 {
   padding-top: 20%;
 }
 
-#numbers {
-  margin-top: -55%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 45%;
-  padding: 0 22%;
-  font-size: 1.3rem;
-  color: white;
-}
 
-.seven {
-  padding-top: 35%;
-}
 
-.five {
-  padding-left: 32%;
-}
-
-.nine {
-  padding-top: 47%;
-  padding-left: 32%;
-}
-
-a {
-  text-decoration: none;
-  color: #282a63;
-}
 
 /* poses styling */
 #poses {
   width: 280px;
   height: 280px;
-  position: absolute;
+
 }
 
 #random_poses {
   width: 100%;
   height: 0;
-  padding-bottom: 100%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
 }
 
 img {
   max-width: 210px;
   max-height: 210px;
   position: absolute;
-  margin: -93% 0 0 35%;
+  margin: -80% 0 0 30%;
 }
 
 /* circle glow styling */
