@@ -6,7 +6,7 @@
 
 /* general body coding */
 body {
-    background: url(../images/galaxy.jpg) no-repeat center center fixed;
+    background: url(../images/galaxy_background.jpg) no-repeat center center fixed;
     font-family: 'ScriptoramaMarkdownJF', sans-serif;
 }
 
@@ -91,12 +91,14 @@ a {
 
    /* poses */
    img {
-    max-width: 260px;
-    max-height: 260px;
+    max-width: 200px;
+    max-height: 200px;
     }
 
     #random_poses {
-      margin: 20% 0 0 6%;
+      position: absolute;
+      margin-top: 15%;
+      margin-left: 25%;
     }
 
 
